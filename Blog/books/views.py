@@ -17,3 +17,15 @@ class PostList(generics.ListCreateAPIView):
 class PostDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Post.objects.all()
     serializer_class = PostSerialzer
+
+
+# class PostCreate():
+#     pass
+
+
+# class PostUpdate():
+#     pass
+
+
+# class PostDelete():
+#     pass
